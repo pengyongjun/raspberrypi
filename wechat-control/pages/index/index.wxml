@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view>
+  <view class="welcome">
+    <view class="logo">
+      <image id='logo-id' style="width: 250rpx; height: 250rpx" src="{{logo}}"></image>
+    </view>
+    <view>
+      <text class="words">{{welcome}}</text>
+    </view>
+  </view>
+
+  <input class="requestURL" type="text" placeholder="{{PromoteMsg}}" focus='1' cursor='10' confirm-type="done" bindinput='getURL'></input>
+  <button class='enter' bindtap='enterClicked'>{{enterBtn}}</button>
+  <view></view>
+  <button class='enter' bindtap='saveImage'>Test</button>
+  <view></view>
+  <button class='enter' bindtap='playVideo'>Video</button>
+</view>
